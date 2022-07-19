@@ -1,0 +1,42 @@
+
+.contenedor {
+    display: flex;
+    height: 600px;;
+    gap: 30px;
+}
+.izquierda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: blueviolet;
+    height: 200px;
+    width: 100px;
+
+}
+.elementos {
+    background-color:rgb(117, 111, 124);
+    height: 30px;
+    width: 60px;
+}
+.principal {
+    height: 200px;
+    width: 100%;
+    background-color: aquamarine;
+    flex-grow: 1;
+}
+@media(max-width: 640px) {
+    .contenedor {
+        flex-direction: column-reverse;
+        align-items: stretch;
+
+    }
+    .izquierda {
+        background-color: rgb(184, 19, 35);
+        width: 100%;
+        height: 10%;
+        flex-direction: row;
+
+    }
+}
