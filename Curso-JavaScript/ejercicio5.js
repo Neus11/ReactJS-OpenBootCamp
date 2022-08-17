@@ -12,3 +12,4 @@ let pesoRedon = Math.floor(peso);
 
 console.log(pesoRedon);
 
+const sonIguales = Number.MAX_VALUE + 1 === Number.MAX_VALUE;
