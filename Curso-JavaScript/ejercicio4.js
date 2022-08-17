@@ -26,4 +26,7 @@ console.log(primeraLetra);
 let ultimaLetra = apellido.charAt(4);
 console.log(ultimaLetra);
 
+let sinEspacios = estudiante.replace(" ","");
+console.log(sinEspacios);
+
 console.log(estudiante.includes(nombre));
